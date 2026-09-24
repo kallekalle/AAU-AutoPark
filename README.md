@@ -15,7 +15,7 @@ Virker på iOS selvom du bruger en anden standardbrowser end Safari 🧭
 
 ## Installationsguide (iOS)
 
-### Download
+### Download 📦
 1. Installer appen [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) og gennemfør dens installationsguide (husk "aktiver JavaScript, aktiver udvidelsen osv.) 📲
 2. Download [AAU-AutoPark](https://github.com/kallekalle/AAU-AutoPark/blob/main/autopark-v1.0.user.js) userscriptet ⬇️
 3. Placér scriptet i Userscripts-mappen
@@ -33,7 +33,7 @@ Virker på iOS selvom du bruger en anden standardbrowser end Safari 🧭
 - Herefter kan du oprette en automatisering, som giver mening for dig.. kunne fx være "når jeg ankommer til SLV300, så kør ovenstående genvej"
 - <img width="300" alt="Skærmbillede 2026-09-24 kl  14 41 59" src="https://github.com/user-attachments/assets/96c2c92e-59dc-4469-b4e6-eb1e73daad3c" />
 
-### Virker det ikke? 💔
+## Virker det ikke? 💔
 1. Tjek, at Userscripts-udvidelsen er slået til i Safari's indstillinger
    
    <img width="300" alt="IMG_6504" src="https://github.com/user-attachments/assets/f2a843ae-468a-42c1-9053-1a48c44cbfe4" />
