@@ -1,6 +1,6 @@
 # AAU AutoPark
 ### Opretter automatisk en 10 timers gæsteparkering på P17, P2A, P3 &amp; område 4688 🚗
-*Tager >9 sekunder! ⌛️*
+*Tager mindre end 9 sekunder! ⌛️*
 
 <img width="400" height="866" align="center" alt="ScreenRecording_09-24-2026 15-09-33_1" src="https://github.com/user-attachments/assets/7275e86f-53f3-46b6-9d3e-91050f4f3d1c" />
 
