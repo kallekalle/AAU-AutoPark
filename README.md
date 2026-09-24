@@ -9,7 +9,7 @@ Virker selvom du bruger en anden standardbrowser end Safari 🧭
 
 ## Installering og brug
 
-1. Installer genvejen via [dette link](https://www.icloud.com/shortcuts/50cf40f292d044ab919ac44e961c1de2) 📦
+1. Installer genvejen via [dette link](https://www.icloud.com/shortcuts/d09b9129ec53412ab2dbf8c10288d97a) 📦
 2. Udfyld nummerplade (og e-mailadresse, hvis du ønsker at modtage kvittering for parkering) 📩
 3. Du kan nu starte en parkering ved at køre genvejen! ✅
 
