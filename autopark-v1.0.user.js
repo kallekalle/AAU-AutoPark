@@ -15,6 +15,7 @@
 
     let PLATE = localStorage.getItem('aau_autopark_plate');
     let EMAIL = localStorage.getItem('aau_autopark_email');
+    let PHONE = localStorage.getItem('aau_autopark_phone');
 
     if (!PLATE) {
         PLATE = prompt('AAU AutoPark\n\nIndtast din nummerplade:');
@@ -34,12 +35,19 @@
         }
     }
 
-    if (!PLATE || !EMAIL) {
+    if (!PHONE) {
+        PHONE = prompt('AAU AutoPark\n\nIndtast dit telefonnummer:');
+
+        if (PHONE) {
+            PHONE = PHONE.trim();
+            localStorage.setItem('aau_autopark_phone', PHONE);
+        }
+    }
+
+    if (!PLATE || !EMAIL || !PHONE) {
         console.log('AAU AutoPark: Opsætning blev ikke gennemført.');
         return;
     }
-
-    // resten af dit script...
 
     let continueClicked = false;
     let confirmClicked = false;
@@ -128,6 +136,22 @@
             );
         });
 
+        const phoneInput = inputs.find(input => {
+            const text = [
+                input.placeholder,
+                input.name,
+                input.id,
+                input.getAttribute('aria-label')
+            ]
+                .join(' ')
+                .toLowerCase();
+
+            return (
+                input.name === 'phoneNumber' ||
+                text.includes('mobilnummer')
+            );
+        });
+
         const emailInput = inputs.find(input => {
 
             const text = [
@@ -158,6 +182,10 @@
             setInputValue(emailInput, EMAIL);
         }
 
+        if (phoneInput && phoneInput.value !== PHONE) {
+            setInputValue(phoneInput, PHONE);
+        }
+
         // Find checkbox
         const checkbox = inputs.find(
             input => input.type === 'checkbox'
@@ -186,18 +214,7 @@
             }, 500);
         }
     }
-
-    /*
-     * VIGTIGT:
-     *
-     * Vi stopper IKKE intervallet efter første klik.
-     *
-     * Next.js skifter URL uden nødvendigvis at reloade siden,
-     * så scriptet skal fortsat køre, når /confirm dukker op.
-     */
     setInterval(run, 300);
-
-    // Kør også med det samme
     run();
 
 })();
