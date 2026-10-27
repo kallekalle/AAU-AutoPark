@@ -24,7 +24,7 @@ Virker på iOS selvom du bruger en anden standardbrowser end Safari 🧭
 ```
 4. Åbn Safari og aktiver scriptet
 5. Du starter nu en parkering, hver gang du besøger hjemmesiden! ✅
-   - Første gangs scriptet kører, bliver du bedt om din nummerplade og e-mailadresse - dette udfyldes kun én gang og gemmes herefter 💾
+   - Første gangs scriptet kører, bliver du bedt om din nummerplade, e-mailadresse og telefonnummer - dette udfyldes kun én gang og gemmes herefter lokalt på din enhed 💾
    - <img width="250" alt="ScreenRecording_09-24-2026 14-47-20_1" src="https://github.com/user-attachments/assets/ae3c87b5-e9ef-4d4e-a625-4a2c71da386e" />
 
 
